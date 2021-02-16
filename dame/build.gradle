@@ -1,0 +1,11 @@
+plugins {
+	id 'local-4f5-plugin'
+}
+
+task Profil (type:JavaExec){
+	dependsOn 'classes'
+	main='dame.pages.Profil.Profil'
+	classpath =sourceSets.main.runtimeClasspath
+	jvmArgs('-Dfile.encoding=UTF-8','-Duser.language=fr')
+}
+
