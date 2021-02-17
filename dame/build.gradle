@@ -2,10 +2,17 @@ plugins {
 	id 'local-4f5-plugin'
 }
 
-task Profil (type:JavaExec){
+
+task PartieProfil (type:JavaExec){
 	dependsOn 'classes'
-	main='dame.pages.Profil.Profil'
+	main='dame.pages.Profil.PartieProfil'
 	classpath =sourceSets.main.runtimeClasspath
 	jvmArgs('-Dfile.encoding=UTF-8','-Duser.language=fr')
 }
 
+task Profil (type:JavaExec) {
+    dependsOn 'classes'
+    main = 'dame.pages.Profil.PartieProfil'
+    classpath = sourceSets.main.runtimeClasspath
+    jvmArgs('-Dfile.encoding=UTF-8', '-Duser.language=fr')
+}
