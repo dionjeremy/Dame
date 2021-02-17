@@ -7,6 +7,7 @@ import javafx.application.Application;
 import javafx.stage.Stage;
 import ntro.debogage.J;
 import ntro.javafx.Initialisateur;
+import ntro.systeme.Systeme;
 
 
 public class PartieProfil extends Application  {
@@ -34,8 +35,10 @@ public class PartieProfil extends Application  {
 
 
 	@Override
-	public void start(Stage primaryStage) throws Exception {
-		// TODO Auto-generated method stub
+	public void start(Stage fenetrePrincipale) throws Exception {
+		J.appel(this);
+		J.ici();
+		Systeme.quitter();
 		
 	}
 	
