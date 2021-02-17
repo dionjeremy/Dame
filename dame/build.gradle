@@ -10,9 +10,3 @@ task PartieProfil (type:JavaExec){
 	jvmArgs('-Dfile.encoding=UTF-8','-Duser.language=fr')
 }
 
-task Profil (type:JavaExec) {
-    dependsOn 'classes'
-    main = 'dame.pages.Profil.PartieProfil'
-    classpath = sourceSets.main.runtimeClasspath
-    jvmArgs('-Dfile.encoding=UTF-8', '-Duser.language=fr')
-}
