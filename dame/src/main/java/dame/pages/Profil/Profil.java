@@ -1,4 +1,4 @@
-package modeles;
+package dame.pages.Profil;
 
 
 
@@ -8,80 +8,87 @@ import ntro.mvc.modeles.Modele;
 
 public class Profil extends Modele<ProfilLectureSeule> implements ProfilLectureSeule {
 
-	private Nom nomJoueur;
-	private Description descriptionJoueur;
-	private Age ageJoueur;
-	private Statistique statistiqueJoueur;
-	private Avatar avatarJoueur;
+	private String nomJoueur;
+	private String descriptionJoueur;
+	private int ageJoueur;
+	private int statistiqueJoueur;
+	private String avatarJoueur;
 	
 	
 	@Override
 	public void apresChargementJson() {
 		J.appel(this);
 		
-		DoitEtre.nonNul(nomJoueur);
-		DoitEtre.nonNul(descriptionJoueur);
-		DoitEtre.nonNul(ageJoueur);
-		DoitEtre.nonNul(statistiqueJoueur);
-		DoitEtre.nonNul(avatarJoueur);
+		
 	}
 
 	@Override
 	public void apresCreation() {
 		J.appel(this);
 		
-		
-		
+		nomJoueur=this.getNom();
+		descriptionJoueur=this.getDescription();
+		ageJoueur=this.getAge();
+		statistiqueJoueur=this.getStatistique();
+		avatarJoueur=this.getAvatar();
 	}
 
 	@Override
-	public Avatar getAvatar() {
+	public String getAvatar() {
 		J.appel(this);
 		return avatarJoueur;
 	}
 
 	@Override
-	public Nom getNom() {
+	public String getNom() {
 		J.appel(this);
 		return nomJoueur;
 	}
 
 	@Override
-	public Age getAge() {
+	public int getAge() {
 		J.appel(this);
 		return ageJoueur;
 	}
 
 	@Override
-	public Description getDescription() {
+	public String getDescription() {
 		J.appel(this);
 		return descriptionJoueur;
 	}
 
 	@Override
-	public Statistique getStatistique() {
+	public int getStatistique() {
 		J.appel(this);
 		return statistiqueJoueur;
 	}
 
 
-	public void setNom(Nom nomJoueur) {
+	public void setNom(String nomJoueur) {
 		J.appel(this);
 		this.nomJoueur=nomJoueur;
 	}
-	public void setAge(Age ageJoueur) {
+	
+	
+	public void setAge(int ageJoueur) {
 		J.appel(this);
 		this.ageJoueur=ageJoueur;
 	}
-	public void setDescription(Description descriptionJoueur) {
+	
+	
+	public void setDescription(String descriptionJoueur) {
 		J.appel(this);
 		this.descriptionJoueur=descriptionJoueur;
 	}
-	public void setStatistique(Statistique statistiqueJoueur) {
+	
+	
+	public void setStatistique(int statistiqueJoueur) {
 		J.appel(this);
 		this.statistiqueJoueur=statistiqueJoueur;
 	}
-	public void setAvatar(Avatar avatarJoueur) {
+	
+	
+	public void setAvatar(String avatarJoueur) {
 		J.appel(this);
 		this.avatarJoueur=avatarJoueur;
 	}
