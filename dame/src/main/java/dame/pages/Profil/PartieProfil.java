@@ -40,7 +40,7 @@ public class PartieProfil extends Application  {
 	@Override
 	public void start(Stage fenetrePrincipale) throws Exception {
 		J.appel(this);
-		J.ici();
+		
 		
 		String idModeleTest = IDS_MODELES_TESTS[alea.nextInt(IDS_MODELES_TESTS.length)];
 		Profil profil=EntrepotDeModeles.obtenirModele(Profil.class, idModeleTest);
