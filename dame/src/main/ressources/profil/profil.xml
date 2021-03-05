@@ -1,0 +1,14 @@
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="dame.pages.Profil.VueProfil">
+
+
+			
+	<Text fx:id="nom" />
+	<Text fx:id="age"/>
+	<Text fx:id="description"/>
+	<Text fx:id="statistique"/>
+	<Text fx:id="avatar"/>
+	
+
+</VBox>
