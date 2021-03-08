@@ -61,7 +61,7 @@ public class PartieProfil extends Application  {
 		
 		FabriqueControleur.creerControleur(ControleurProfil.class,Profil,vue,afficheurProfil);
 		
-		Scene scene =chargeur.nouvelleScene(500,500);
+		Scene scene =chargeur.nouvelleScene(500,400);
 		
 		fenetrePrincipale.setScene(scene);
 		
