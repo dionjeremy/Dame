@@ -48,7 +48,7 @@ public class PartieProfil extends Application  {
 		J.appel(this);
 		
 		ChargeurDeVue <VueProfil> chargeur;
-		chargeur = new ChargeurDeVue<VueProfil>("/profil/profil.xml");
+		chargeur = new ChargeurDeVue<VueProfil>("/ressources/profil/profil.xml");
 		
 		VueProfil vue=chargeur.getVue();
 		
