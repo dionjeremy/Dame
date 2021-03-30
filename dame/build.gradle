@@ -26,7 +26,7 @@ task parametres (type:JavaExec) {
 
 task resultats (type:JavaExec) {
 	dependsOn 'classes'
-	main = 'dame.pages.resultats.PageResultats'
+	main = 'dame.pages.Resultats.PageResultats'
 	classpath = sourceSets.main.runtimeClasspath
 	jvmArgs('-Dfile.encoding=utf-8', '-Duser.langangue=fr')
 }
