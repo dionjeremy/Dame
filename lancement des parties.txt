@@ -1,3 +1,4 @@
 Page Profil : ./gradlew PartieProfil
 Page locale : ./gradlew PartieLocale
 Page parametres : ./gradlew parametres
+Page résultat : ./gradlew resultats
