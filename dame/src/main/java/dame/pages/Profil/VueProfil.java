@@ -3,8 +3,8 @@ package dame.pages.Profil;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import commandes.profil.ChoisirProfil;
-import commandes.profil.ChoisirProfilPourEnvoi;
+import dame.commandes.profil.ChoisirProfil;
+import dame.commandes.profil.ChoisirProfilPourEnvoi;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -102,6 +102,8 @@ public class VueProfil implements Vue,Initializable{
 				choisirProfil.setNom(nomText.getText());
 				choisirProfil.setAvatar(avatarText.getText());
 				choisirProfil.envoyerCommande();
+				
+				
 			}
 		});
 		

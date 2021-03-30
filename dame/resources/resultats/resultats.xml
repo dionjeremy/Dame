@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.control.Button?>
+
+<!-- <GridPane alignment="CENTER" hgap="100.0" vgap="100.0" xmlns:fx="http://javafx.com/fxml" fx:controller="dame.pages.Resultats.VueResultats">
+  <padding>
+    <Insets bottom="100.0" left="100.0" right="100.0" top="100.0"/>
+  </padding>
+  <Label  style="-fx-font: NORMAL 20 Tahoma;" fix:id="titre" text="Tableau des Resultats" GridPane.columnIndex="0" GridPane.rowIndex="0"></Label>
+  <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="1" prefWidth="1200">
+    <columns>
+      <TableColumn fx:id="username" text="Nom user"></TableColumn>
+      <TableColumn fx:id="results" text="Resultat"></TableColumn>
+      <TableColumn fx:id="nbMove" text="Nombre de mouvement"></TableColumn>
+      <TableColumn fx:id="ptsPartie" text="Poins de la partie"></TableColumn>
+      <TableColumn fx:id="ptsTotal" text="Points total"></TableColumn>
+    </columns>
+  </TableView>
+</GridPane> -->
+
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="center"
+    fx:controller="dame.pages.resultats.VueResultats">
+
+	<VBox>
+		<HBox alignment="center">
+			<Text textAlignment="CENTER" text="Tableau"/>
+		</HBox>
+    <HBox >
+    <Label text="Nom      Resultats    Nombre de mouvement    Points partie     Points total"/>
+    </HBox>
+    <HBox >
+    <Text fx:id="donnees" text=""/>
+    </HBox>
+	</VBox>
+  <HBox>
+		<Button text="Quitter" fx:id="quitter"/>
+	</HBox>
+</VBox>

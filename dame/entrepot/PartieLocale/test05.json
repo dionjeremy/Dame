@@ -1,0 +1,39 @@
+{
+  "hauteur": 10,
+  "couleurCourante": "NOIRE",
+  "grille": {
+    "colonnes": [
+      {
+        "jetons": []
+      },
+      {
+        "jetons": []
+      },
+      {
+        "jetons": []
+      },
+      {
+        "jetons": []
+      },
+      {
+        "jetons": []
+      },
+      {
+        "jetons": []
+      },
+      {
+        "jetons": []
+      },
+      {
+        "jetons": []
+      },
+      {
+        "jetons": []
+      },
+      {
+        "jetons": []
+      }
+    ]
+  },
+  "id":"test05"
+}

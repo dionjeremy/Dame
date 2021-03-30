@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" 
+      fx:controller="dame.pages.PartieLocale.vues.VuePartie">
+    <VBox>
+        <HBox fx:id="conteneurEntetes"/>
+        <VBox fx:id="conteneurGrille"/>
+    </VBox>
+    <HBox>
+            <Text fx:id="nomJoueurUn" text="Partie locale"/>
+    </HBox>
+</VBox>

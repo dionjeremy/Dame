@@ -1,0 +1,349 @@
+{
+  "hauteur": 10,
+  "couleurCourante": "NOIRE",
+  "grille": {
+    "colonnes": [
+      {
+        "jetons": [
+          {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          },
+	  {
+            "couleur": "BLANC"
+          },
+          {
+            "couleur": "NOIRE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          },
+	  {
+            "couleur": "NOIRE"
+          },
+          {
+            "couleur": "BLANC"
+          }
+        ]
+      }
+    ]
+  },
+  "id":"test04"
+}

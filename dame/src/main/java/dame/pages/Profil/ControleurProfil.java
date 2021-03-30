@@ -1,14 +1,17 @@
 package dame.pages.Profil;
 
-import commandes.profil.ChoisirProfil;
-import commandes.profil.ChoisirProfilRecue;
+import dame.commandes.profil.ChoisirProfil;
+import dame.commandes.profil.ChoisirProfilPourEnvoi;
+import dame.commandes.profil.ChoisirProfilRecue;
 import ntro.debogage.DoitEtre;
 import ntro.debogage.J;
 import ntro.mvc.controleurs.ControleurModeleVue;
 import ntro.mvc.controleurs.RecepteurCommandeMVC;
+import ntro.mvc.modeles.EntrepotDeModeles;
 
 public class ControleurProfil extends ControleurModeleVue<ProfilLectureSeule,Profil,VueProfil,AfficheurProfil> {
 
+	
 	@Override
 	protected void demarrer() {
 		J.appel(this);
@@ -44,6 +47,9 @@ public class ControleurProfil extends ControleurModeleVue<ProfilLectureSeule,Pro
 				getModele().setAvatar(avatar);
 				getModele().setStatistique(statistique);
 				getModele().setAge(age);
+				
+				
+				
 			}
 
 			

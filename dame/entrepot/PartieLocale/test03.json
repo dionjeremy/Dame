@@ -1,0 +1,348 @@
+{
+	"tailleDamier" : "DAMIER_8X8",
+	"couleurCourante" : "NOIRE",
+	"grille" : {
+		"colonnes" : [
+			{
+				"jetons" : [
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "BLANC"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					}
+				]
+			},
+			{
+				"jetons" : [
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "BLANC"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					}
+				]
+			},
+			{
+				"jetons" : [
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "BLANC"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					}
+				]
+			},
+			{
+				"jetons" : [
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "BLANC"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					}
+				]
+			},
+			{
+				"jetons" : [
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "BLANC"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					}
+				]
+			},
+			{
+				"jetons" : [
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "BLANC"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					}
+				]
+			},
+			{
+				"jetons" : [
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "BLANC"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					}
+				]
+			},
+			{
+				"jetons" : [
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "BLANC"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					}
+				]
+			},
+			{
+				"jetons" : [
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "BLANC"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					}
+				]
+			},
+			{
+				"jetons" : [
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "BLANC"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					},
+					{
+						"couleur" : "BLOQUE"
+					},
+					{
+						"couleur" : "VIDE"
+					}
+				]
+			}
+		]	
+	}
+}

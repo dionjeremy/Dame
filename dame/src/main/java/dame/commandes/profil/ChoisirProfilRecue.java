@@ -1,4 +1,4 @@
-package commandes.profil;
+package dame.commandes.profil;
 
 import ntro.commandes.CommandeRecue;
 

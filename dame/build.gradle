@@ -10,3 +10,16 @@ task PartieProfil (type:JavaExec){
 	jvmArgs('-Dfile.encoding=UTF-8','-Duser.language=fr')
 }
 
+task PartieLocale (type:JavaExec) {
+	dependsOn 'classes'
+	main = 'dame.pages.PartieLocale.PagePartieLocale'
+	classpath = sourceSets.main.runtimeClasspath
+	jvmArgs('-Dfile.encoding=UTF-8', '-Duser.language=fr')
+}
+
+task parametres (type:JavaExec) {
+	dependsOn 'classes'
+	main = 'dame.pages.parametres.PageParametres'
+	classpath = sourceSets.main.runtimeClasspath
+	jvmArgs('-Dfile.encoding=UTF-8', '-Duser.language=fr')
+}

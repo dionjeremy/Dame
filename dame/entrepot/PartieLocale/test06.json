@@ -1,0 +1,349 @@
+{
+  "hauteur": 10,
+  "couleurCourante": "NOIRE",
+  "grille": {
+    "colonnes": [
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          },
+	  {
+            "couleur": "VIDE_PALE"
+          },
+          {
+            "couleur": "VIDE_FONCE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          },
+	  {
+            "couleur": "VIDE_FONCE"
+          },
+          {
+            "couleur": "VIDE_PALE"
+          }
+        ]
+      }
+    ]
+  },
+  "id":"test06"
+}

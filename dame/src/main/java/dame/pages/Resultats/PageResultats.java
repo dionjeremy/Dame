@@ -1,10 +1,9 @@
-package dame.pages.Profil;
 
+package dame.pages.Resultats;
+import static dame.Constantes.Resultats.Constantes.*;
 
-import java.io.IOException;
 import java.util.Random;
 
-import static dame.Constantes.Profil.Constantes.*;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -18,78 +17,64 @@ import ntro.mvc.controleurs.FabriqueControleur;
 import ntro.mvc.modeles.EntrepotDeModeles;
 import ntro.systeme.Systeme;
 
+public class PageResultats extends Application {
 
-public class PartieProfil extends Application  {
-	
-	public static final String[] IDS_MODELES_TESTS = {"test01","test02","test03"};
-	
 	static {
+
 		Initialisateur.initialiser();
-		J.appel(PartieProfil.class);
 		
+		J.appel(PageResultats.class);
 	}
+	
 	
 	private Random alea = new Random();
 	
-	public static void main(String []args) throws IOException {
-		J.appel(PartieProfil.class);
+	public static void main(String[] args) {
+		J.appel(PageResultats.class);
 		launch(args);
-		System.out.print("test");
-		
-		
-	
-		
 	}
-
-
-
+	
 	@Override
 	public void start(Stage fenetrePrincipale) throws Exception {
 		J.appel(this);
 		
-		ChargeurDeVue <VueProfil> chargeur;
-		chargeur = new ChargeurDeVue<VueProfil>(CHEMIN_PROFIL_FXML);
-		
-		VueProfil vue=chargeur.getVue();
-		
+		ChargeurDeVue<VueResultats> chargeur;
+		chargeur = new ChargeurDeVue<VueResultats>(CHEMIN_RESULTATS_FXML);
+
+		VueResultats vue = chargeur.getVue();
 		String idModeleTest = IDS_MODELES_TESTS[alea.nextInt(IDS_MODELES_TESTS.length)];
-		Profil Profil=EntrepotDeModeles.obtenirModele(Profil.class, idModeleTest);
+		Resultats resultats = EntrepotDeModeles.obtenirModele(Resultats.class, idModeleTest);
 		
-		AfficheurProfil afficheurProfil=new AfficheurProfil();
+		AfficheurResultats afficheurResultats = new AfficheurResultats();
 		
 		DoitEtre.nonNul(vue);
+
+		FabriqueControleur.creerControleur(ControleurResultats.class, resultats, vue, afficheurResultats);
+		System.out.println(idModeleTest);
+
+		J.valeurs(resultats.getNom(), resultats.getResults(), resultats.getNbMove(),
+				resultats.getScorePartie(), resultats.getScoreTotal());
 		
-		FabriqueControleur.creerControleur(ControleurProfil.class,Profil,vue,afficheurProfil);
-		
-		Scene scene =chargeur.nouvelleScene(LARGEUR_PIXELS,HAUTEUR_PIXELS);
+		Scene scene = chargeur.nouvelleScene(LARGEUR_PIXELS, HAUTEUR_PIXELS);
 		
 		fenetrePrincipale.setScene(scene);
+		
 		fenetrePrincipale.setMinWidth(LARGEUR_PIXELS);
 		fenetrePrincipale.setMinHeight(HAUTEUR_PIXELS);
-		
-		J.valeurs(Profil.getNom(),Profil.getStatistique(),Profil.getAge(),Profil.getAvatar(),Profil.getDescription());
-		
 		capterEvenementFermeture(fenetrePrincipale);
-		
+
 		fenetrePrincipale.show();
-		
+
 	}
-	
 	private void capterEvenementFermeture(Stage fenetrePrincipale) {
 		J.appel(this);
-
 		fenetrePrincipale.setOnCloseRequest(new EventHandler<WindowEvent>() {
 			@Override
 			public void handle(WindowEvent event) {
 				J.appel(this);
-
 				Systeme.quitter();
 			}
 		});
 	}
-	
-	
-	
-	
 	
 }

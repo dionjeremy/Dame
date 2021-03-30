@@ -1,10 +1,5 @@
-package dame.pages.Profil;
+package dame.pages.Parametres;
 
-
-import java.io.IOException;
-import java.util.Random;
-
-import static dame.Constantes.Profil.Constantes.*;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -19,59 +14,58 @@ import ntro.mvc.modeles.EntrepotDeModeles;
 import ntro.systeme.Systeme;
 
 
-public class PartieProfil extends Application  {
-	
-	public static final String[] IDS_MODELES_TESTS = {"test01","test02","test03"};
-	
+import static dame.Constantes.Parametres.Constantes.*;
+
+import java.util.Random;
+
+public class PageParametres extends Application {
+
 	static {
+
 		Initialisateur.initialiser();
-		J.appel(PartieProfil.class);
 		
+		J.appel(PageParametres.class);
 	}
 	
 	private Random alea = new Random();
 	
-	public static void main(String []args) throws IOException {
-		J.appel(PartieProfil.class);
+	public static void main(String[] args) {
+		J.appel(PageParametres.class);
 		launch(args);
-		System.out.print("test");
-		
-		
-	
-		
 	}
-
-
+	
 
 	@Override
 	public void start(Stage fenetrePrincipale) throws Exception {
 		J.appel(this);
 		
-		ChargeurDeVue <VueProfil> chargeur;
-		chargeur = new ChargeurDeVue<VueProfil>(CHEMIN_PROFIL_FXML);
-		
-		VueProfil vue=chargeur.getVue();
+		ChargeurDeVue<VueParametres> chargeur;
+		chargeur = new ChargeurDeVue<VueParametres>(CHEMIN_PARAMETRES_FXML);
+
+		VueParametres vue = chargeur.getVue();
 		
 		String idModeleTest = IDS_MODELES_TESTS[alea.nextInt(IDS_MODELES_TESTS.length)];
-		Profil Profil=EntrepotDeModeles.obtenirModele(Profil.class, idModeleTest);
+		Parametres parametres = EntrepotDeModeles.obtenirModele(Parametres.class, idModeleTest);
 		
-		AfficheurProfil afficheurProfil=new AfficheurProfil();
+		//J.valeurs(parametres.getId(), parametres.getCouleurJoueur1().name(), parametres.getTailleDamier());
+		
+		AfficheurParametres afficheurParametres = new AfficheurParametres();
 		
 		DoitEtre.nonNul(vue);
-		
-		FabriqueControleur.creerControleur(ControleurProfil.class,Profil,vue,afficheurProfil);
-		
-		Scene scene =chargeur.nouvelleScene(LARGEUR_PIXELS,HAUTEUR_PIXELS);
-		
+
+		FabriqueControleur.creerControleur(ControleurParametres.class, parametres, vue, afficheurParametres);
+
+		Scene scene = chargeur.nouvelleScene(LARGEUR_PIXELS, HAUTEUR_PIXELS);
+
 		fenetrePrincipale.setScene(scene);
+		
 		fenetrePrincipale.setMinWidth(LARGEUR_PIXELS);
 		fenetrePrincipale.setMinHeight(HAUTEUR_PIXELS);
 		
-		J.valeurs(Profil.getNom(),Profil.getStatistique(),Profil.getAge(),Profil.getAvatar(),Profil.getDescription());
-		
 		capterEvenementFermeture(fenetrePrincipale);
-		
+
 		fenetrePrincipale.show();
+
 		
 	}
 	
@@ -87,9 +81,5 @@ public class PartieProfil extends Application  {
 			}
 		});
 	}
-	
-	
-	
-	
-	
+
 }

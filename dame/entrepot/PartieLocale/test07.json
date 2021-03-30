@@ -1,0 +1,349 @@
+{
+  "hauteur": 10,
+  "couleurCourante": "NOIRE",
+  "grille": {
+    "colonnes": [
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          }
+        ]
+      },
+      {
+        "jetons": [
+          {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          },
+	  {
+            "couleur": "VIDE"
+          },
+          {
+            "couleur": "VIDE"
+          }
+        ]
+      }
+    ]
+  },
+  "id":"test07"
+}
