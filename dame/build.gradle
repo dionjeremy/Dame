@@ -19,7 +19,7 @@ task PartieLocale (type:JavaExec) {
 
 task parametres (type:JavaExec) {
 	dependsOn 'classes'
-	main = 'dame.pages.parametres.PageParametres'
+	main = 'dame.pages.Parametres.PageParametres'
 	classpath = sourceSets.main.runtimeClasspath
 	jvmArgs('-Dfile.encoding=UTF-8', '-Duser.language=fr')
 }
