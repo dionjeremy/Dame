@@ -23,3 +23,10 @@ task parametres (type:JavaExec) {
 	classpath = sourceSets.main.runtimeClasspath
 	jvmArgs('-Dfile.encoding=UTF-8', '-Duser.language=fr')
 }
+
+task resultats (type:JavaExec) {
+	dependsOn 'classes'
+	main = 'dame.pages.resultats.PageResultats'
+	classpath = sourceSets.main.runtimeClasspath
+	jvmArgs('-Dfile.encoding=utf-8', '-Duser.langangue=fr')
+}
